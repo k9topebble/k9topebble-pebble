@@ -1,0 +1,1581 @@
+Archive member included because of file (symbol)
+
+/mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                              src/app.c.1.o (app_timer_send_event)
+
+Allocating common symbols
+Common symbol       size              file
+
+textLayer           0x38              src/app.c.1.o
+window              0x58              src/app.c.1.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 /mnt/raid/home/andrew/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+ .bss           0x00000000        0x0 /mnt/raid/home/andrew/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+ .init          0x00000000        0x4 /mnt/raid/home/andrew/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+ .fini          0x00000000        0x4 /mnt/raid/home/andrew/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+ .text          0x00000000       0x68 /mnt/raid/home/andrew/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtbegin.o
+ .bss           0x00000000       0x1c /mnt/raid/home/andrew/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtbegin.o
+ .init_array    0x00000000        0x4 /mnt/raid/home/andrew/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtbegin.o
+ .fini_array    0x00000000        0x4 /mnt/raid/home/andrew/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtbegin.o
+ .eh_frame      0x00000000        0x0 /mnt/raid/home/andrew/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtbegin.o
+ .jcr           0x00000000        0x0 /mnt/raid/home/andrew/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtbegin.o
+ .text          0x00000000        0x0 src/Action.c.1.o
+ .bss           0x00000000        0x0 src/Action.c.1.o
+ .text          0x00000000        0x0 src/AreYouSure.c.1.o
+ .bss           0x00000000        0x0 src/AreYouSure.c.1.o
+ .text          0x00000000        0x0 src/Inbox.c.1.o
+ .bss           0x00000000        0x0 src/Inbox.c.1.o
+ .text.InboxHide
+                0x00000000        0x2 src/Inbox.c.1.o
+ .text.InboxDestroy
+                0x00000000        0xc src/Inbox.c.1.o
+ .text          0x00000000        0x0 src/MessageData.c.1.o
+ .bss           0x00000000        0x0 src/MessageData.c.1.o
+ .text.md_bodyLoaded
+                0x00000000       0x1c src/MessageData.c.1.o
+ .text.keyComplete
+                0x00000000       0x54 src/MessageData.c.1.o
+ .text.markMissing
+                0x00000000       0x58 src/MessageData.c.1.o
+ .text.sendAck  0x00000000       0x40 src/MessageData.c.1.o
+ .text.markDeleted
+                0x00000000        0x2 src/MessageData.c.1.o
+ .text.md_date  0x00000000        0x4 src/MessageData.c.1.o
+ .text.md_hasAttachment
+                0x00000000        0x4 src/MessageData.c.1.o
+ .text.md_bodyTextSize
+                0x00000000        0xc src/MessageData.c.1.o
+ .text          0x00000000        0x0 src/PleaseWait.c.1.o
+ .bss           0x00000000        0x0 src/PleaseWait.c.1.o
+ .text.PleaseWaitActive
+                0x00000000        0xc src/PleaseWait.c.1.o
+ .text          0x00000000        0x0 src/Read.c.1.o
+ .bss           0x00000000        0x0 src/Read.c.1.o
+ .text.ReadHide
+                0x00000000        0x2 src/Read.c.1.o
+ .text.ReadDestroy
+                0x00000000        0x2 src/Read.c.1.o
+ .text          0x00000000        0x0 src/ScreenCapture.c.1.o
+ .bss           0x00000000        0x0 src/ScreenCapture.c.1.o
+ .text.pbl_capture_send
+                0x00000000        0x2 src/ScreenCapture.c.1.o
+ .text          0x00000000        0x0 src/app.c.1.o
+ .bss           0x00000000        0x0 src/app.c.1.o
+ .text.up_single_click_handler
+                0x00000000        0x2 src/app.c.1.o
+ .text.down_single_click_handler
+                0x00000000        0x2 src/app.c.1.o
+ .text.select_long_click_handler
+                0x00000000        0x2 src/app.c.1.o
+ .text.select_single_click_handler
+                0x00000000       0x28 src/app.c.1.o
+ .text.click_config_provider
+                0x00000000       0x3c src/app.c.1.o
+ .rodata.str1.1
+                0x00000000        0x7 src/app.c.1.o
+ COMMON         0x00000000       0x90 src/app.c.1.o
+ .text          0x00000000        0x0 src/logger.c.1.o
+ .bss           0x00000000        0x0 src/logger.c.1.o
+ .text._distmsg
+                0x00000000       0x44 src/logger.c.1.o
+ .text.logger_msg
+                0x00000000       0xe0 src/logger.c.1.o
+ .rodata.str1.1
+                0x00000000       0x93 src/logger.c.1.o
+ .text          0x00000000        0x0 src/messageQ.c.1.o
+ .bss           0x00000000        0x0 src/messageQ.c.1.o
+ .text.mq_post  0x00000000        0x8 src/messageQ.c.1.o
+ .bss           0x00000000        0x0 /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.animation_init
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.animation_set_delay
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.animation_set_duration
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.animation_set_curve
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.animation_set_handlers
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.animation_set_implementation
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.animation_get_context
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.animation_schedule
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.animation_unschedule
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.animation_unschedule_all
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.animation_is_scheduled
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.app_timer_cancel_event
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.bmp_init_container
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.bmp_deinit_container
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.cos_lookup
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.fonts_load_custom_font
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.fonts_unload_custom_font
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.graphics_context_set_fill_color
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.graphics_context_set_compositing_mode
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.graphics_draw_pixel
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.graphics_fill_rect
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.graphics_draw_circle
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.graphics_fill_circle
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.graphics_draw_round_rect
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.get_time
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.gpath_init
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.gpath_move_to
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.gpath_rotate_to
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.gpath_draw_outline
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.gpath_draw_filled
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.grect_center_point
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.layer_mark_dirty
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.layer_remove_from_parent
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.layer_get_frame
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.layer_set_hidden
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.layer_init
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.light_enable
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.psleep   0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.resource_init_current_app
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.resource_get_handle
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.resource_load
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.resource_load_byte_range
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.resource_size
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.rotbmp_deinit_container
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.rotbmp_init_container
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.rotbmp_pair_deinit_container
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.rotbmp_pair_init_container
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.rotbmp_pair_layer_set_src_ic
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.rotbmp_pair_layer_set_angle
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.window_set_background_color
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.window_render
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.sin_lookup
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.string_format_time
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.text_layer_get_text
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.text_layer_set_text_color
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.text_layer_set_background_color
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.vibes_double_pulse
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.vibes_enqueue_custom_pattern
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.vibes_long_pulse
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.vibes_short_pulse
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.clock_is_24h_style
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.property_animation_init_layer_frame
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.text_layer_set_text_alignment
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.graphics_draw_bitmap_in_rect
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.layer_set_bounds
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.layer_get_bounds
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.layer_set_update_proc
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.layer_get_window
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.layer_remove_child_layers
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.layer_insert_below_sibling
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.layer_insert_above_sibling
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.layer_get_hidden
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.layer_set_clips
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.layer_get_clips
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.graphics_text_layout_get_max_used_size
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.bitmap_layer_init
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.bitmap_layer_set_bitmap
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.bitmap_layer_set_alignment
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.bitmap_layer_set_background_color
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.bitmap_layer_set_compositing_mode
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.heap_bitmap_init
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.heap_bitmap_deinit
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.click_recognizer_get_button_id
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.click_number_of_clicks_counted
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.menu_cell_basic_draw
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.menu_cell_title_draw
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.menu_layer_get_layer
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.menu_layer_set_selected_next
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.menu_index_compare
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.scroll_layer_set_callbacks
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.scroll_layer_set_context
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.scroll_layer_set_content_offset
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.scroll_layer_get_content_offset
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.scroll_layer_get_content_size
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.scroll_layer_set_frame
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.scroll_layer_scroll_up_click_handler
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.scroll_layer_scroll_down_click_handler
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.simple_menu_layer_init
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.simple_menu_layer_get_layer
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.simple_menu_layer_get_selected_index
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.simple_menu_layer_set_selected_index
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.window_set_click_config_provider_with_context
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.window_get_click_config_provider
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.window_get_root_layer
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.window_get_fullscreen
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.window_set_status_bar_icon
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.window_is_loaded
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.window_stack_pop_all
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.window_stack_contains_window
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.window_stack_get_top_window
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.property_animation_init
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.property_animation_update_int16
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.property_animation_update_gpoint
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.property_animation_update_grect
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.app_message_register_callbacks
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.app_message_deregister_callbacks
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.app_sync_init
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.app_sync_deinit
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.app_sync_set
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.app_sync_get
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.dict_calc_buffer_size
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.dict_write_uint8
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.dict_write_uint16
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.dict_write_uint32
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.dict_write_int8
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.dict_write_int16
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.dict_write_int32
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.dict_read_begin_from_buffer
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.dict_serialize_tuplets
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.dict_serialize_tuplets_to_buffer
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.dict_serialize_tuplets_to_buffer_with_iter
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.dict_write_tuplet
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.dict_calc_buffer_size_from_tuplets
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.action_bar_layer_init
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.action_bar_layer_set_context
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.action_bar_layer_set_click_config_provider
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.action_bar_layer_set_icon
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.action_bar_layer_clear_icon
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.action_bar_layer_add_to_window
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.action_bar_layer_remove_from_window
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.action_bar_layer_set_background_color
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.number_window_init
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.number_window_set_label
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.number_window_set_max
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.number_window_set_min
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.number_window_set_value
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.number_window_set_step_size
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.number_window_get_value
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.clock_copy_time_string
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.gbitmap_init_as_sub_bitmap
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.gbitmap_init_with_data
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.app_log  0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.graphics_draw_rect
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.vibes_cancel
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.menu_layer_get_selected_index
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.gpoint_equal
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.grect_contains_point
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.grect_align
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.grect_clip
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.grect_crop
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.grect_equal
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.grect_is_empty
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.grect_standardize
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.gsize_equal
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.rand     0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.srand    0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.snprintf
+                0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.strcat   0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.strncat  0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.strlen   0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.memmove  0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.time     0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text.time_ms  0x00000000        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .text          0x00000000        0x0 /mnt/raid/home/andrew/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtend.o
+ .bss           0x00000000        0x0 /mnt/raid/home/andrew/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtend.o
+ .eh_frame      0x00000000        0x4 /mnt/raid/home/andrew/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtend.o
+ .jcr           0x00000000        0x4 /mnt/raid/home/andrew/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtend.o
+ .text          0x00000000        0x0 /mnt/raid/home/andrew/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
+ .bss           0x00000000        0x0 /mnt/raid/home/andrew/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
+ .init          0x00000000        0x8 /mnt/raid/home/andrew/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
+ .fini          0x00000000        0x8 /mnt/raid/home/andrew/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+APP              0x00000000         0x00006000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /mnt/raid/home/andrew/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+LOAD /mnt/raid/home/andrew/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtbegin.o
+LOAD src/Action.c.1.o
+LOAD src/AreYouSure.c.1.o
+LOAD src/Inbox.c.1.o
+LOAD src/MessageData.c.1.o
+LOAD src/PleaseWait.c.1.o
+LOAD src/Read.c.1.o
+LOAD src/ScreenCapture.c.1.o
+LOAD src/app.c.1.o
+LOAD src/logger.c.1.o
+LOAD src/messageQ.c.1.o
+LOAD /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a
+START GROUP
+LOAD /mnt/raid/home/andrew/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a
+LOAD /mnt/raid/home/andrew/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/../../../../arm-none-eabi/lib/thumb2/libc.a
+END GROUP
+LOAD /mnt/raid/home/andrew/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtend.o
+LOAD /mnt/raid/home/andrew/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
+
+.header         0x00000000       0x7c
+ *(.pbl_header)
+ .pbl_header    0x00000000       0x7c src/app.c.1.o
+                0x00000000                __pbl_app_info
+
+.rodata         0x0000007c       0x58
+ .rodata        0x0000007c       0x18 src/AreYouSure.c.1.o
+ .rodata        0x00000094       0x10 src/Inbox.c.1.o
+ .rodata        0x000000a4       0x20 src/PleaseWait.c.1.o
+ .rodata        0x000000c4       0x10 src/Read.c.1.o
+
+.rodata.str1.1  0x000000d4      0x248
+ .rodata.str1.1
+                0x000000d4       0x6f src/AreYouSure.c.1.o
+ .rodata.str1.1
+                0x00000143       0x8d src/Inbox.c.1.o
+                                 0xa8 (size before relaxing)
+ .rodata.str1.1
+                0x000001d0       0xd9 src/MessageData.c.1.o
+ .rodata.str1.1
+                0x000002a9       0x3e src/PleaseWait.c.1.o
+                                 0x54 (size before relaxing)
+ .rodata.str1.1
+                0x000002e7       0x35 src/Read.c.1.o
+                                 0xc4 (size before relaxing)
+
+.rodata.CSWTCH.3
+                0x0000031c        0x2
+ .rodata.CSWTCH.3
+                0x0000031c        0x2 src/Inbox.c.1.o
+
+.rodata.CSWTCH.7
+                0x0000031e        0x2
+ .rodata.CSWTCH.7
+                0x0000031e        0x2 src/Read.c.1.o
+
+.rodata.CSWTCH.6
+                0x00000320        0x2
+ .rodata.CSWTCH.6
+                0x00000320        0x2 src/Read.c.1.o
+
+.rodata.body_rect
+                0x00000322        0x8
+ .rodata.body_rect
+                0x00000322        0x8 src/Read.c.1.o
+
+.rodata.scroll_rect
+                0x0000032a        0x8
+ .rodata.scroll_rect
+                0x0000032a        0x8 src/Read.c.1.o
+
+.text           0x00000334       0x14
+ *(.text)
+ .text          0x00000334       0x14 /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+
+.glue_7         0x00000348        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x00000348        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x00000348        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x00000348        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x00000348        0x0
+ .iplt          0x00000000        0x0 /mnt/raid/home/andrew/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+
+.text.mClickConfigProvider
+                0x00000348       0x16
+ .text.mClickConfigProvider
+                0x00000348       0x14 src/AreYouSure.c.1.o
+ .text.mClickConfigProvider
+                0x0000035c        0x2 src/PleaseWait.c.1.o
+
+.text.AreYouSureCreate
+                0x00000360      0x114
+ .text.AreYouSureCreate
+                0x00000360      0x114 src/AreYouSure.c.1.o
+                0x00000360                AreYouSureCreate
+
+.text.AreYouSureConfirm
+                0x00000474        0xc
+ .text.AreYouSureConfirm
+                0x00000474        0xc src/AreYouSure.c.1.o
+                0x00000474                AreYouSureConfirm
+
+.text.AreYouSureShow
+                0x00000480       0x44
+ .text.AreYouSureShow
+                0x00000480       0x44 src/AreYouSure.c.1.o
+                0x00000480                AreYouSureShow
+
+.text.AreYouSureHide
+                0x000004c4        0x6
+ .text.AreYouSureHide
+                0x000004c4        0x6 src/AreYouSure.c.1.o
+                0x000004c4                AreYouSureHide
+
+.text.mClickHandler
+                0x000004cc       0x24
+ .text.mClickHandler
+                0x000004cc       0x24 src/AreYouSure.c.1.o
+
+.text.s_disapear
+                0x000004f0       0x10
+ .text.s_disapear
+                0x000004f0       0x10 src/Inbox.c.1.o
+
+.text.s_appear  0x00000500       0x18
+ .text.s_appear
+                0x00000500       0x18 src/Inbox.c.1.o
+
+.text.m_MenuLayerLongSelectCallback
+                0x00000518       0x44
+ .text.m_MenuLayerLongSelectCallback
+                0x00000518       0x44 src/Inbox.c.1.o
+
+.text.m_MenuLayerSelectCallback
+                0x0000055c       0x1c
+ .text.m_MenuLayerSelectCallback
+                0x0000055c       0x1c src/Inbox.c.1.o
+
+.text.m_MenuLayerDrawHeaderCallback
+                0x00000578        0xc
+ .text.m_MenuLayerDrawHeaderCallback
+                0x00000578        0xc src/Inbox.c.1.o
+
+.text.m_MenuLayerGetCellHeightCallback
+                0x00000584       0x20
+ .text.m_MenuLayerGetCellHeightCallback
+                0x00000584       0x20 src/Inbox.c.1.o
+
+.text.m_MenuLayerDrawRowCallback
+                0x000005a4      0x248
+ .text.m_MenuLayerDrawRowCallback
+                0x000005a4      0x248 src/Inbox.c.1.o
+
+.text.m_MenuLayerGetNumberOfRowsInSectionsCallback
+                0x000007ec        0xa
+ .text.m_MenuLayerGetNumberOfRowsInSectionsCallback
+                0x000007ec        0xa src/Inbox.c.1.o
+
+.text.InboxCreate
+                0x000007f8       0xac
+ .text.InboxCreate
+                0x000007f8       0xac src/Inbox.c.1.o
+                0x000007f8                InboxCreate
+
+.text.InboxShow
+                0x000008a4       0x78
+ .text.InboxShow
+                0x000008a4       0x78 src/Inbox.c.1.o
+                0x000008a4                InboxShow
+
+.text.InboxRefresh
+                0x0000091c       0x40
+ .text.InboxRefresh
+                0x0000091c       0x40 src/Inbox.c.1.o
+                0x0000091c                InboxRefresh
+
+.text.deleteCB  0x0000095c       0x20
+ .text.deleteCB
+                0x0000095c       0x20 src/Inbox.c.1.o
+                0x0000095c                deleteCB
+
+.text.md_BodyDictionaryUpdate
+                0x0000097c        0x2
+ .text.md_BodyDictionaryUpdate
+                0x0000097c        0x2 src/MessageData.c.1.o
+                0x0000097c                md_BodyDictionaryUpdate
+
+.text._sendMessage
+                0x0000097e       0x5e
+ .text._sendMessage
+                0x0000097e       0x5e src/MessageData.c.1.o
+
+.text.msgError  0x000009dc       0x9c
+ .text.msgError
+                0x000009dc       0x9c src/MessageData.c.1.o
+                0x000009dc                msgError
+
+.text.body_CALLBACK
+                0x00000a78       0x54
+ .text.body_CALLBACK
+                0x00000a78       0x54 src/MessageData.c.1.o
+                0x00000a78                body_CALLBACK
+
+.text.activate_CALLBACK
+                0x00000acc       0x38
+ .text.activate_CALLBACK
+                0x00000acc       0x38 src/MessageData.c.1.o
+                0x00000acc                activate_CALLBACK
+
+.text.md_activate
+                0x00000b04       0xd0
+ .text.md_activate
+                0x00000b04       0xd0 src/MessageData.c.1.o
+                0x00000b04                md_activate
+
+.text.md_deactivate
+                0x00000bd4        0xa
+ .text.md_deactivate
+                0x00000bd4        0xa src/MessageData.c.1.o
+                0x00000bd4                md_deactivate
+
+.text.md_loaded
+                0x00000be0        0xc
+ .text.md_loaded
+                0x00000be0        0xc src/MessageData.c.1.o
+                0x00000be0                md_loaded
+
+.text._isBodyComplete
+                0x00000bec       0xac
+ .text._isBodyComplete
+                0x00000bec       0xac src/MessageData.c.1.o
+                0x00000bec                _isBodyComplete
+
+.text.md_requestBody
+                0x00000c98       0xa4
+ .text.md_requestBody
+                0x00000c98       0xa4 src/MessageData.c.1.o
+                0x00000c98                md_requestBody
+
+.text.addDataToMsgs
+                0x00000d3c       0xd8
+ .text.addDataToMsgs
+                0x00000d3c       0xd8 src/MessageData.c.1.o
+                0x00000d3c                addDataToMsgs
+
+.text.md_getMessageCount
+                0x00000e14       0x10
+ .text.md_getMessageCount
+                0x00000e14       0x10 src/MessageData.c.1.o
+                0x00000e14                md_getMessageCount
+
+.text.md_sender
+                0x00000e24       0x14
+ .text.md_sender
+                0x00000e24       0x14 src/MessageData.c.1.o
+                0x00000e24                md_sender
+
+.text.md_subject
+                0x00000e38       0x14
+ .text.md_subject
+                0x00000e38       0x14 src/MessageData.c.1.o
+                0x00000e38                md_subject
+
+.text.md_body   0x00000e4c        0xc
+ .text.md_body  0x00000e4c        0xc src/MessageData.c.1.o
+                0x00000e4c                md_body
+
+.text.md_uuid   0x00000e58       0x10
+ .text.md_uuid  0x00000e58       0x10 src/MessageData.c.1.o
+                0x00000e58                md_uuid
+
+.text.md_index  0x00000e68       0x2e
+ .text.md_index
+                0x00000e68       0x2e src/MessageData.c.1.o
+                0x00000e68                md_index
+
+.text.my_in_rcv_handler
+                0x00000e98      0x160
+ .text.my_in_rcv_handler
+                0x00000e98      0x160 src/MessageData.c.1.o
+                0x00000e98                my_in_rcv_handler
+
+.text.md_requestDelete
+                0x00000ff8       0x30
+ .text.md_requestDelete
+                0x00000ff8       0x30 src/MessageData.c.1.o
+                0x00000ff8                md_requestDelete
+
+.text.md_unread
+                0x00001028       0x14
+ .text.md_unread
+                0x00001028       0x14 src/MessageData.c.1.o
+                0x00001028                md_unread
+
+.text.md_isDeleted
+                0x0000103c       0x14
+ .text.md_isDeleted
+                0x0000103c       0x14 src/MessageData.c.1.o
+                0x0000103c                md_isDeleted
+
+.text.md_isNew  0x00001050        0x4
+ .text.md_isNew
+                0x00001050        0x4 src/MessageData.c.1.o
+                0x00001050                md_isNew
+
+.text.md_inboxTextSize
+                0x00001054        0xc
+ .text.md_inboxTextSize
+                0x00001054        0xc src/MessageData.c.1.o
+                0x00001054                md_inboxTextSize
+
+.text.PleaseWaitCreate
+                0x00001060      0x170
+ .text.PleaseWaitCreate
+                0x00001060      0x170 src/PleaseWait.c.1.o
+                0x00001060                PleaseWaitCreate
+
+.text.PleaseWaitShow
+                0x000011d0       0x2c
+ .text.PleaseWaitShow
+                0x000011d0       0x2c src/PleaseWait.c.1.o
+                0x000011d0                PleaseWaitShow
+
+.text.PleaseWaitDebug
+                0x000011fc       0x10
+ .text.PleaseWaitDebug
+                0x000011fc       0x10 src/PleaseWait.c.1.o
+                0x000011fc                PleaseWaitDebug
+
+.text.PleaseWaitHide
+                0x0000120c       0x14
+ .text.PleaseWaitHide
+                0x0000120c       0x14 src/PleaseWait.c.1.o
+                0x0000120c                PleaseWaitHide
+
+.text.readUpdateDisplay
+                0x00001220      0x218
+ .text.readUpdateDisplay
+                0x00001220      0x218 src/Read.c.1.o
+
+.text.handle_disappear
+                0x00001438        0x4
+ .text.handle_disappear
+                0x00001438        0x4 src/Read.c.1.o
+
+.text.ReadCreate
+                0x0000143c       0x18
+ .text.ReadCreate
+                0x0000143c       0x18 src/Read.c.1.o
+                0x0000143c                ReadCreate
+
+.text.ReadShow  0x00001454      0x2ac
+ .text.ReadShow
+                0x00001454      0x2ac src/Read.c.1.o
+                0x00001454                ReadShow
+
+.text.ReadRefresh
+                0x00001700       0x1c
+ .text.ReadRefresh
+                0x00001700       0x1c src/Read.c.1.o
+                0x00001700                ReadRefresh
+
+.text.m_PebbleAppTimerHandler
+                0x0000171c       0x20
+ .text.m_PebbleAppTimerHandler
+                0x0000171c       0x20 src/app.c.1.o
+
+.text.handle_deinit
+                0x0000173c        0x4
+ .text.handle_deinit
+                0x0000173c        0x4 src/app.c.1.o
+                0x0000173c                handle_deinit
+
+.text.handle_init
+                0x00001740       0x38
+ .text.handle_init
+                0x00001740       0x38 src/app.c.1.o
+                0x00001740                handle_init
+
+.text.pbl_main  0x00001778       0x1c
+ .text.pbl_main
+                0x00001778       0x1c src/app.c.1.o
+                0x00001778                pbl_main
+
+.text.mq_complete
+                0x00001794       0x48
+ .text.mq_complete
+                0x00001794       0x48 src/messageQ.c.1.o
+
+.text.mq_create
+                0x000017dc       0x24
+ .text.mq_create
+                0x000017dc       0x24 src/messageQ.c.1.o
+                0x000017dc                mq_create
+
+.text.mq_pop    0x00001800       0xe8
+ .text.mq_pop   0x00001800       0xe8 src/messageQ.c.1.o
+                0x00001800                mq_pop
+
+.text.mq_post_cb
+                0x000018e8       0x8c
+ .text.mq_post_cb
+                0x000018e8       0x8c src/messageQ.c.1.o
+                0x000018e8                mq_post_cb
+
+.text.my_out_sent_handler
+                0x00001974       0x10
+ .text.my_out_sent_handler
+                0x00001974       0x10 src/messageQ.c.1.o
+                0x00001974                my_out_sent_handler
+
+.text.my_out_fail_handler
+                0x00001984        0xe
+ .text.my_out_fail_handler
+                0x00001984        0xe src/messageQ.c.1.o
+                0x00001984                my_out_fail_handler
+
+.text.my_in_drp_handler
+                0x00001992        0x4
+ .text.my_in_drp_handler
+                0x00001992        0x4 src/messageQ.c.1.o
+                0x00001992                my_in_drp_handler
+
+.text.app_timer_send_event
+                0x00001998        0xc
+ .text.app_timer_send_event
+                0x00001998        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001998                app_timer_send_event
+
+.text.app_event_loop
+                0x000019a4        0xc
+ .text.app_event_loop
+                0x000019a4        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x000019a4                app_event_loop
+
+.text.fonts_get_system_font
+                0x000019b0        0xc
+ .text.fonts_get_system_font
+                0x000019b0        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x000019b0                fonts_get_system_font
+
+.text.graphics_context_set_stroke_color
+                0x000019bc        0xc
+ .text.graphics_context_set_stroke_color
+                0x000019bc        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x000019bc                graphics_context_set_stroke_color
+
+.text.graphics_context_set_text_color
+                0x000019c8        0xc
+ .text.graphics_context_set_text_color
+                0x000019c8        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x000019c8                graphics_context_set_text_color
+
+.text.graphics_draw_line
+                0x000019d4        0xc
+ .text.graphics_draw_line
+                0x000019d4        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x000019d4                graphics_draw_line
+
+.text.layer_add_child
+                0x000019e0        0xc
+ .text.layer_add_child
+                0x000019e0        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x000019e0                layer_add_child
+
+.text.layer_set_frame
+                0x000019ec        0xc
+ .text.layer_set_frame
+                0x000019ec        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x000019ec                layer_set_frame
+
+.text.light_enable_interaction
+                0x000019f8        0xc
+ .text.light_enable_interaction
+                0x000019f8        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x000019f8                light_enable_interaction
+
+.text.window_init
+                0x00001a04        0xc
+ .text.window_init
+                0x00001a04        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001a04                window_init
+
+.text.window_stack_push
+                0x00001a10        0xc
+ .text.window_stack_push
+                0x00001a10        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001a10                window_stack_push
+
+.text.window_set_click_config_provider
+                0x00001a1c        0xc
+ .text.window_set_click_config_provider
+                0x00001a1c        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001a1c                window_set_click_config_provider
+
+.text.window_set_fullscreen
+                0x00001a28        0xc
+ .text.window_set_fullscreen
+                0x00001a28        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001a28                window_set_fullscreen
+
+.text.text_layer_init
+                0x00001a34        0xc
+ .text.text_layer_init
+                0x00001a34        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001a34                text_layer_init
+
+.text.text_layer_set_text
+                0x00001a40        0xc
+ .text.text_layer_set_text
+                0x00001a40        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001a40                text_layer_set_text
+
+.text.text_layer_set_font
+                0x00001a4c        0xc
+ .text.text_layer_set_font
+                0x00001a4c        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001a4c                text_layer_set_font
+
+.text.app_get_current_graphics_context
+                0x00001a58        0xc
+ .text.app_get_current_graphics_context
+                0x00001a58        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001a58                app_get_current_graphics_context
+
+.text.graphics_text_draw
+                0x00001a64        0xc
+ .text.graphics_text_draw
+                0x00001a64        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001a64                graphics_text_draw
+
+.text.text_layer_get_max_used_size
+                0x00001a70        0xc
+ .text.text_layer_get_max_used_size
+                0x00001a70        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001a70                text_layer_get_max_used_size
+
+.text.text_layer_set_size
+                0x00001a7c        0xc
+ .text.text_layer_set_size
+                0x00001a7c        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001a7c                text_layer_set_size
+
+.text.text_layer_set_overflow_mode
+                0x00001a88        0xc
+ .text.text_layer_set_overflow_mode
+                0x00001a88        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001a88                text_layer_set_overflow_mode
+
+.text.inverter_layer_init
+                0x00001a94        0xc
+ .text.inverter_layer_init
+                0x00001a94        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001a94                inverter_layer_init
+
+.text.menu_cell_basic_header_draw
+                0x00001aa0        0xc
+ .text.menu_cell_basic_header_draw
+                0x00001aa0        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001aa0                menu_cell_basic_header_draw
+
+.text.menu_layer_init
+                0x00001aac        0xc
+ .text.menu_layer_init
+                0x00001aac        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001aac                menu_layer_init
+
+.text.menu_layer_set_callbacks
+                0x00001ab8        0xc
+ .text.menu_layer_set_callbacks
+                0x00001ab8        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001ab8                menu_layer_set_callbacks
+
+.text.menu_layer_set_click_config_onto_window
+                0x00001ac4        0xc
+ .text.menu_layer_set_click_config_onto_window
+                0x00001ac4        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001ac4                menu_layer_set_click_config_onto_window
+
+.text.menu_layer_set_selected_index
+                0x00001ad0        0xc
+ .text.menu_layer_set_selected_index
+                0x00001ad0        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001ad0                menu_layer_set_selected_index
+
+.text.menu_layer_reload_data
+                0x00001adc        0xc
+ .text.menu_layer_reload_data
+                0x00001adc        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001adc                menu_layer_reload_data
+
+.text.scroll_layer_init
+                0x00001ae8        0xc
+ .text.scroll_layer_init
+                0x00001ae8        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001ae8                scroll_layer_init
+
+.text.scroll_layer_add_child
+                0x00001af4        0xc
+ .text.scroll_layer_add_child
+                0x00001af4        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001af4                scroll_layer_add_child
+
+.text.scroll_layer_set_click_config_onto_window
+                0x00001b00        0xc
+ .text.scroll_layer_set_click_config_onto_window
+                0x00001b00        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001b00                scroll_layer_set_click_config_onto_window
+
+.text.scroll_layer_set_content_size
+                0x00001b0c        0xc
+ .text.scroll_layer_set_content_size
+                0x00001b0c        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001b0c                scroll_layer_set_content_size
+
+.text.window_deinit
+                0x00001b18        0xc
+ .text.window_deinit
+                0x00001b18        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001b18                window_deinit
+
+.text.window_set_window_handlers
+                0x00001b24        0xc
+ .text.window_set_window_handlers
+                0x00001b24        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001b24                window_set_window_handlers
+
+.text.window_stack_pop
+                0x00001b30        0xc
+ .text.window_stack_pop
+                0x00001b30        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001b30                window_stack_pop
+
+.text.window_stack_remove
+                0x00001b3c        0xc
+ .text.window_stack_remove
+                0x00001b3c        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001b3c                window_stack_remove
+
+.text.app_message_out_get
+                0x00001b48        0xc
+ .text.app_message_out_get
+                0x00001b48        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001b48                app_message_out_get
+
+.text.app_message_out_send
+                0x00001b54        0xc
+ .text.app_message_out_send
+                0x00001b54        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001b54                app_message_out_send
+
+.text.app_message_out_release
+                0x00001b60        0xc
+ .text.app_message_out_release
+                0x00001b60        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001b60                app_message_out_release
+
+.text.dict_write_begin
+                0x00001b6c        0xc
+ .text.dict_write_begin
+                0x00001b6c        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001b6c                dict_write_begin
+
+.text.dict_write_data
+                0x00001b78        0xc
+ .text.dict_write_data
+                0x00001b78        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001b78                dict_write_data
+
+.text.dict_write_cstring
+                0x00001b84        0xc
+ .text.dict_write_cstring
+                0x00001b84        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001b84                dict_write_cstring
+
+.text.dict_write_int
+                0x00001b90        0xc
+ .text.dict_write_int
+                0x00001b90        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001b90                dict_write_int
+
+.text.dict_write_end
+                0x00001b9c        0xc
+ .text.dict_write_end
+                0x00001b9c        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001b9c                dict_write_end
+
+.text.dict_read_next
+                0x00001ba8        0xc
+ .text.dict_read_next
+                0x00001ba8        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001ba8                dict_read_next
+
+.text.dict_read_first
+                0x00001bb4        0xc
+ .text.dict_read_first
+                0x00001bb4        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001bb4                dict_read_first
+
+.text.dict_merge
+                0x00001bc0        0xc
+ .text.dict_merge
+                0x00001bc0        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001bc0                dict_merge
+
+.text.dict_find
+                0x00001bcc        0xc
+ .text.dict_find
+                0x00001bcc        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001bcc                dict_find
+
+.text.app_comm_set_sniff_interval
+                0x00001bd8        0xc
+ .text.app_comm_set_sniff_interval
+                0x00001bd8        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001bd8                app_comm_set_sniff_interval
+
+.text.strcmp    0x00001be4        0xc
+ .text.strcmp   0x00001be4        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001be4                strcmp
+
+.text.strncmp   0x00001bf0        0xc
+ .text.strncmp  0x00001bf0        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001bf0                strncmp
+
+.text.strcpy    0x00001bfc        0xc
+ .text.strcpy   0x00001bfc        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001bfc                strcpy
+
+.text.strncpy   0x00001c08        0xc
+ .text.strncpy  0x00001c08        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001c08                strncpy
+
+.text.memset    0x00001c14        0xc
+ .text.memset   0x00001c14        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001c14                memset
+
+.text.memcpy    0x00001c20        0xc
+ .text.memcpy   0x00001c20        0xc /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+                0x00001c20                memcpy
+
+.rel.dyn        0x00001c2c        0x0
+ .rel.iplt      0x00000000        0x0 /mnt/raid/home/andrew/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+ .rel.got       0x00000000        0x0 /mnt/raid/home/andrew/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+
+.data           0x00001c2c        0x4
+ *(.data)
+ .data          0x00001c2c        0x0 /mnt/raid/home/andrew/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+ .data          0x00001c2c        0x4 /mnt/raid/home/andrew/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtbegin.o
+                0x00001c2c                __dso_handle
+ .data          0x00001c30        0x0 src/Action.c.1.o
+ .data          0x00001c30        0x0 src/AreYouSure.c.1.o
+ .data          0x00001c30        0x0 src/Inbox.c.1.o
+ .data          0x00001c30        0x0 src/MessageData.c.1.o
+ .data          0x00001c30        0x0 src/PleaseWait.c.1.o
+ .data          0x00001c30        0x0 src/Read.c.1.o
+ .data          0x00001c30        0x0 src/ScreenCapture.c.1.o
+ .data          0x00001c30        0x0 src/app.c.1.o
+ .data          0x00001c30        0x0 src/logger.c.1.o
+ .data          0x00001c30        0x0 src/messageQ.c.1.o
+ .data          0x00001c30        0x0 /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .data          0x00001c30        0x0 /mnt/raid/home/andrew/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtend.o
+ .data          0x00001c30        0x0 /mnt/raid/home/andrew/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
+
+.igot.plt       0x00001c30        0x0
+ .igot.plt      0x00000000        0x0 /mnt/raid/home/andrew/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+
+.got            0x00001c30        0x0
+ .got           0x00000000        0x0 /mnt/raid/home/andrew/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+
+.got.plt        0x00001c30        0xc
+ .got.plt       0x00001c30        0xc /mnt/raid/home/andrew/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+                0x00001c30                _GLOBAL_OFFSET_TABLE_
+
+.data.rel.ro.local.s_callbacks
+                0x00001c3c       0x24
+ .data.rel.ro.local.s_callbacks
+                0x00001c3c       0x24 src/Inbox.c.1.o
+
+.data.rel.s_handlers.6473
+                0x00001c60       0x40
+ .data.rel.s_handlers.6473
+                0x00001c60       0x40 src/app.c.1.o
+
+.bss
+ *(.bss)
+
+.bss.s_body     0x00001ca0       0xb4
+ .bss.s_body    0x00001ca0       0x38 src/AreYouSure.c.1.o
+ .bss.s_body    0x00001cd8        0xc src/MessageData.c.1.o
+ .bss.s_body    0x00001ce4       0x38 src/PleaseWait.c.1.o
+ .bss.s_body    0x00001d1c       0x38 src/Read.c.1.o
+
+.bss.s_title    0x00001d54       0x70
+ .bss.s_title   0x00001d54       0x38 src/AreYouSure.c.1.o
+ .bss.s_title   0x00001d8c       0x38 src/PleaseWait.c.1.o
+
+.bss.s_AreYouSureConfirm
+                0x00001dc4        0x1
+ .bss.s_AreYouSureConfirm
+                0x00001dc4        0x1 src/AreYouSure.c.1.o
+
+.bss.s_window   0x00001dc8      0x160
+ .bss.s_window  0x00001dc8       0x58 src/AreYouSure.c.1.o
+ .bss.s_window  0x00001e20       0x58 src/Inbox.c.1.o
+ .bss.s_window  0x00001e78       0x58 src/PleaseWait.c.1.o
+ .bss.s_window  0x00001ed0       0x58 src/Read.c.1.o
+
+.bss.s_instruction
+                0x00001f28       0x38
+ .bss.s_instruction
+                0x00001f28       0x38 src/AreYouSure.c.1.o
+
+.bss.s_cb       0x00001f60        0x4
+ .bss.s_cb      0x00001f60        0x4 src/AreYouSure.c.1.o
+
+.bss.s_waitingForData
+                0x00001f64        0x2
+ .bss.s_waitingForData
+                0x00001f64        0x1 src/Inbox.c.1.o
+ .bss.s_waitingForData
+                0x00001f65        0x1 src/Read.c.1.o
+
+.bss.s_uri      0x00001f66      0x164
+ .bss.s_uri     0x00001f66      0x100 src/Inbox.c.1.o
+ .bss.s_uri     0x00002066       0x64 src/Read.c.1.o
+
+.bss.s_visible  0x000020ca        0x1
+ .bss.s_visible
+                0x000020ca        0x1 src/Inbox.c.1.o
+
+.bss.s_deleteuuid
+                0x000020cb       0x64
+ .bss.s_deleteuuid
+                0x000020cb       0x64 src/Inbox.c.1.o
+
+.bss.s_menu_layer
+                0x00002130      0x120
+ .bss.s_menu_layer
+                0x00002130      0x120 src/Inbox.c.1.o
+
+.bss.error_count
+                0x00002250        0x4
+ .bss.error_count
+                0x00002250        0x4 src/MessageData.c.1.o
+
+.bss.s_hasLoaded
+                0x00002254        0x1
+ .bss.s_hasLoaded
+                0x00002254        0x1 src/MessageData.c.1.o
+
+.bss.s_bodyFailed
+                0x00002255        0x1
+ .bss.s_bodyFailed
+                0x00002255        0x1 src/MessageData.c.1.o
+
+.bss.s_bodyTextSize
+                0x00002258        0x4
+ .bss.s_bodyTextSize
+                0x00002258        0x4 src/MessageData.c.1.o
+
+.bss.s_inboxTextSize
+                0x0000225c        0x4
+ .bss.s_inboxTextSize
+                0x0000225c        0x4 src/MessageData.c.1.o
+
+.bss.s_bodyuri  0x00002260       0x64
+ .bss.s_bodyuri
+                0x00002260       0x64 src/MessageData.c.1.o
+
+.bss.s_messageKeys
+                0x000022c4       0x32
+ .bss.s_messageKeys
+                0x000022c4       0x32 src/MessageData.c.1.o
+
+.bss.s_messageData
+                0x000022f6     0x189c
+ .bss.s_messageData
+                0x000022f6     0x189c src/MessageData.c.1.o
+
+.bss.s_messageCount
+                0x00003b92        0x2
+ .bss.s_messageCount
+                0x00003b92        0x2 src/MessageData.c.1.o
+
+.bss.s_bodyBuffer
+                0x00003b94      0x800
+ .bss.s_bodyBuffer
+                0x00003b94      0x800 src/MessageData.c.1.o
+
+.bss.s_bodyExtract
+                0x00004394      0x400
+ .bss.s_bodyExtract
+                0x00004394      0x400 src/MessageData.c.1.o
+
+.bss.s_pleaseWaitOnTop
+                0x00004794        0x1
+ .bss.s_pleaseWaitOnTop
+                0x00004794        0x1 src/PleaseWait.c.1.o
+
+.bss.s_version  0x00004798       0x38
+ .bss.s_version
+                0x00004798       0x38 src/PleaseWait.c.1.o
+
+.bss.s_debug    0x000047d0       0x38
+ .bss.s_debug   0x000047d0       0x38 src/PleaseWait.c.1.o
+
+.bss.s_sender   0x00004808       0x38
+ .bss.s_sender  0x00004808       0x38 src/Read.c.1.o
+
+.bss.s_subject_txt
+                0x00004840       0x64
+ .bss.s_subject_txt
+                0x00004840       0x64 src/Read.c.1.o
+
+.bss.s_gotBody  0x000048a4        0x1
+ .bss.s_gotBody
+                0x000048a4        0x1 src/Read.c.1.o
+
+.bss.s_inverter
+                0x000048a8       0x28
+ .bss.s_inverter
+                0x000048a8       0x28 src/Read.c.1.o
+
+.bss.s_subject  0x000048d0       0x38
+ .bss.s_subject
+                0x000048d0       0x38 src/Read.c.1.o
+
+.bss.s_sender_txt
+                0x00004908       0x32
+ .bss.s_sender_txt
+                0x00004908       0x32 src/Read.c.1.o
+
+.bss.s_scroll   0x0000493c       0xc0
+ .bss.s_scroll  0x0000493c       0xc0 src/Read.c.1.o
+
+.bss.s_timer    0x000049fc        0x4
+ .bss.s_timer   0x000049fc        0x4 src/app.c.1.o
+
+.bss.s_buffers  0x00004a00      0x200
+ .bss.s_buffers
+                0x00004a00      0x200 src/messageQ.c.1.o
+
+.bss.s_count    0x00004c00        0x4
+ .bss.s_count   0x00004c00        0x4 src/messageQ.c.1.o
+
+.bss.s_queue    0x00004c04       0x50
+ .bss.s_queue   0x00004c04       0x50 src/messageQ.c.1.o
+
+.bss.s_top      0x00004c54        0x4
+ .bss.s_top     0x00004c54        0x4 src/messageQ.c.1.o
+
+.bss.s_tail     0x00004c58        0x4
+ .bss.s_tail    0x00004c58        0x4 src/messageQ.c.1.o
+
+DISCARD
+ libc.a(*)
+ libm.a(*)
+ libgcc.a(*)
+ *(.eh_frame)
+OUTPUT(/mnt/raid/home/andrew/pebble/dev/K9ToPebble/build/pebble-app.elf elf32-littlearm)
+
+.ARM.attributes
+                0x00000000       0x27
+ .ARM.attributes
+                0x00000000       0x1b /mnt/raid/home/andrew/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+ .ARM.attributes
+                0x0000001b       0x2b /mnt/raid/home/andrew/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtbegin.o
+ .ARM.attributes
+                0x00000046       0x33 src/Action.c.1.o
+ .ARM.attributes
+                0x00000079       0x33 src/AreYouSure.c.1.o
+ .ARM.attributes
+                0x000000ac       0x33 src/Inbox.c.1.o
+ .ARM.attributes
+                0x000000df       0x33 src/MessageData.c.1.o
+ .ARM.attributes
+                0x00000112       0x33 src/PleaseWait.c.1.o
+ .ARM.attributes
+                0x00000145       0x33 src/Read.c.1.o
+ .ARM.attributes
+                0x00000178       0x33 src/ScreenCapture.c.1.o
+ .ARM.attributes
+                0x000001ab       0x33 src/app.c.1.o
+ .ARM.attributes
+                0x000001de       0x33 src/logger.c.1.o
+ .ARM.attributes
+                0x00000211       0x33 src/messageQ.c.1.o
+ .ARM.attributes
+                0x00000244       0x21 /mnt/raid/home/andrew/pebble/dev/K9ToPebble/lib/libpebble.a(tmpHZgwt9pebble_os.o)
+ .ARM.attributes
+                0x00000265       0x2b /mnt/raid/home/andrew/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtend.o
+ .ARM.attributes
+                0x00000290       0x1b /mnt/raid/home/andrew/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
+
+.comment        0x00000000       0x4e
+ .comment       0x00000000       0x4e /mnt/raid/home/andrew/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtbegin.o
+                                 0x4f (size before relaxing)
+ .comment       0x00000000       0x4f src/Action.c.1.o
+ .comment       0x00000000       0x4f src/AreYouSure.c.1.o
+ .comment       0x00000000       0x4f src/Inbox.c.1.o
+ .comment       0x00000000       0x4f src/MessageData.c.1.o
+ .comment       0x00000000       0x4f src/PleaseWait.c.1.o
+ .comment       0x00000000       0x4f src/Read.c.1.o
+ .comment       0x00000000       0x4f src/ScreenCapture.c.1.o
+ .comment       0x00000000       0x4f src/app.c.1.o
+ .comment       0x00000000       0x4f src/logger.c.1.o
+ .comment       0x00000000       0x4f src/messageQ.c.1.o
+ .comment       0x00000000       0x4f /mnt/raid/home/andrew/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtend.o
+
+.debug_line     0x00000000     0x1695
+ .debug_line    0x00000000       0x71 /mnt/raid/home/andrew/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+ .debug_line    0x00000071      0x128 src/Action.c.1.o
+ .debug_line    0x00000199      0x1e4 src/AreYouSure.c.1.o
+ .debug_line    0x0000037d      0x2c2 src/Inbox.c.1.o
+ .debug_line    0x0000063f      0x470 src/MessageData.c.1.o
+ .debug_line    0x00000aaf      0x1d7 src/PleaseWait.c.1.o
+ .debug_line    0x00000c86      0x250 src/Read.c.1.o
+ .debug_line    0x00000ed6      0x153 src/ScreenCapture.c.1.o
+ .debug_line    0x00001029      0x200 src/app.c.1.o
+ .debug_line    0x00001229      0x1c7 src/logger.c.1.o
+ .debug_line    0x000013f0      0x230 src/messageQ.c.1.o
+ .debug_line    0x00001620       0x75 /mnt/raid/home/andrew/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
+
+.debug_info     0x00000000     0x64c2
+ .debug_info    0x00000000       0x93 /mnt/raid/home/andrew/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+ .debug_info    0x00000093      0x108 src/Action.c.1.o
+ .debug_info    0x0000019b      0x9d7 src/AreYouSure.c.1.o
+ .debug_info    0x00000b72     0x12be src/Inbox.c.1.o
+ .debug_info    0x00001e30      0xe18 src/MessageData.c.1.o
+ .debug_info    0x00002c48      0x99b src/PleaseWait.c.1.o
+ .debug_info    0x000035e3      0xf28 src/Read.c.1.o
+ .debug_info    0x0000450b      0x11f src/ScreenCapture.c.1.o
+ .debug_info    0x0000462a     0x1397 src/app.c.1.o
+ .debug_info    0x000059c1      0x429 src/logger.c.1.o
+ .debug_info    0x00005dea      0x645 src/messageQ.c.1.o
+ .debug_info    0x0000642f       0x93 /mnt/raid/home/andrew/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
+
+.debug_abbrev   0x00000000     0x1395
+ .debug_abbrev  0x00000000       0x12 /mnt/raid/home/andrew/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+ .debug_abbrev  0x00000012       0x95 src/Action.c.1.o
+ .debug_abbrev  0x000000a7      0x217 src/AreYouSure.c.1.o
+ .debug_abbrev  0x000002be      0x2ad src/Inbox.c.1.o
+ .debug_abbrev  0x0000056b      0x2ff src/MessageData.c.1.o
+ .debug_abbrev  0x0000086a      0x20a src/PleaseWait.c.1.o
+ .debug_abbrev  0x00000a74      0x260 src/Read.c.1.o
+ .debug_abbrev  0x00000cd4       0xaa src/ScreenCapture.c.1.o
+ .debug_abbrev  0x00000d7e      0x22a src/app.c.1.o
+ .debug_abbrev  0x00000fa8      0x1c0 src/logger.c.1.o
+ .debug_abbrev  0x00001168      0x21b src/messageQ.c.1.o
+ .debug_abbrev  0x00001383       0x12 /mnt/raid/home/andrew/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
+
+.debug_aranges  0x00000000      0x3c8
+ .debug_aranges
+                0x00000000       0x28 /mnt/raid/home/andrew/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+ .debug_aranges
+                0x00000028       0x48 src/AreYouSure.c.1.o
+ .debug_aranges
+                0x00000070       0x88 src/Inbox.c.1.o
+ .debug_aranges
+                0x000000f8      0x110 src/MessageData.c.1.o
+ .debug_aranges
+                0x00000208       0x48 src/PleaseWait.c.1.o
+ .debug_aranges
+                0x00000250       0x50 src/Read.c.1.o
+ .debug_aranges
+                0x000002a0       0x20 src/ScreenCapture.c.1.o
+ .debug_aranges
+                0x000002c0       0x60 src/app.c.1.o
+ .debug_aranges
+                0x00000320       0x28 src/logger.c.1.o
+ .debug_aranges
+                0x00000348       0x58 src/messageQ.c.1.o
+ .debug_aranges
+                0x000003a0       0x28 /mnt/raid/home/andrew/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
+
+.debug_ranges   0x00000000      0x348
+ .debug_ranges  0x00000000       0x20 /mnt/raid/home/andrew/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+ .debug_ranges  0x00000020       0x38 src/AreYouSure.c.1.o
+ .debug_ranges  0x00000058       0x78 src/Inbox.c.1.o
+ .debug_ranges  0x000000d0      0x120 src/MessageData.c.1.o
+ .debug_ranges  0x000001f0       0x38 src/PleaseWait.c.1.o
+ .debug_ranges  0x00000228       0x40 src/Read.c.1.o
+ .debug_ranges  0x00000268       0x10 src/ScreenCapture.c.1.o
+ .debug_ranges  0x00000278       0x50 src/app.c.1.o
+ .debug_ranges  0x000002c8       0x18 src/logger.c.1.o
+ .debug_ranges  0x000002e0       0x48 src/messageQ.c.1.o
+ .debug_ranges  0x00000328       0x20 /mnt/raid/home/andrew/pebble/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
+
+.debug_str      0x00000000     0x1a6c
+ .debug_str     0x00000000       0xf2 src/Action.c.1.o
+                                0x12b (size before relaxing)
+ .debug_str     0x000000f2      0x500 src/AreYouSure.c.1.o
+                                0x6b9 (size before relaxing)
+ .debug_str     0x000005f2      0x5ff src/Inbox.c.1.o
+                                0xc24 (size before relaxing)
+ .debug_str     0x00000bf1      0x63d src/MessageData.c.1.o
+                                0x827 (size before relaxing)
+ .debug_str     0x0000122e       0x88 src/PleaseWait.c.1.o
+                                0x6a5 (size before relaxing)
+ .debug_str     0x000012b6      0x118 src/Read.c.1.o
+                                0x9e1 (size before relaxing)
+ .debug_str     0x000013ce       0x28 src/ScreenCapture.c.1.o
+                                0x143 (size before relaxing)
+ .debug_str     0x000013f6      0x541 src/app.c.1.o
+                                0xd7f (size before relaxing)
+ .debug_str     0x00001937       0x62 src/logger.c.1.o
+                                0x33f (size before relaxing)
+ .debug_str     0x00001999       0xd3 src/messageQ.c.1.o
+                                0x489 (size before relaxing)
+
+.debug_loc      0x00000000     0x186c
+ .debug_loc     0x00000000       0xec src/AreYouSure.c.1.o
+ .debug_loc     0x000000ec      0x465 src/Inbox.c.1.o
+ .debug_loc     0x00000551      0xaee src/MessageData.c.1.o
+ .debug_loc     0x0000103f       0x89 src/PleaseWait.c.1.o
+ .debug_loc     0x000010c8      0x29f src/Read.c.1.o
+ .debug_loc     0x00001367      0x14c src/app.c.1.o
+ .debug_loc     0x000014b3      0x185 src/logger.c.1.o
+ .debug_loc     0x00001638      0x234 src/messageQ.c.1.o
+
+.debug_frame    0x00000000      0x7d0
+ .debug_frame   0x00000000       0x98 src/AreYouSure.c.1.o
+ .debug_frame   0x00000098      0x15c src/Inbox.c.1.o
+ .debug_frame   0x000001f4      0x2a4 src/MessageData.c.1.o
+ .debug_frame   0x00000498       0x8c src/PleaseWait.c.1.o
+ .debug_frame   0x00000524       0xb0 src/Read.c.1.o
+ .debug_frame   0x000005d4       0x20 src/ScreenCapture.c.1.o
+ .debug_frame   0x000005f4       0xc0 src/app.c.1.o
+ .debug_frame   0x000006b4       0x48 src/logger.c.1.o
+ .debug_frame   0x000006fc       0xd4 src/messageQ.c.1.o

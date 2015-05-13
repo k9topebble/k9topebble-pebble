@@ -1,0 +1,16 @@
+
+{"friendlyVersion": "VERSION",
+ "versionDefName": "VERSION",
+ "media": [
+	   {
+	    "type":"raw",
+	    "defName":"DUMMY",
+	    "file":"resource_map.json"
+	   },
+     {
+        "defName":"TITLE",
+        "file":"img/k9_to_pebble_watch2.png",
+        "type":"png"
+     }	 
+	]
+}
